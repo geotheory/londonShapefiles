@@ -5,5 +5,5 @@
 #' @example examples/load_lon.R
 load_lon = function(){
   require(maptools)
-  lon <<- readShapePoly('data/london_outline_simple.shpp', proj4string=CRS('+init=epsg:27700'))
+  lon <<- readShapePoly('data/london_outline_simple.shp', proj4string=CRS('+init=epsg:27700'))
 }
