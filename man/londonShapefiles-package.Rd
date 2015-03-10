@@ -3,12 +3,10 @@
 \alias{londonShapefiles}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+Some shapefiles for London
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+Some useful (small) boundary shapefiles, including GLA boundary, local authorities and River Thames
 }
 \details{
 \tabular{ll}{
@@ -16,26 +14,20 @@ Package: \tab londonShapefiles\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2015-03-10\cr
-License: \tab What license is it under?\cr
+License: \tab GPL-2\cr
 }
-~~ An overview of how to use the package, including the most important functions ~~
+Call functions to load the individual shapefiles
 }
 \author{
-Who wrote it
+Robin Edwards
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+Maintainer: Robin Edwards <geotheory1@gmail.com>
 }
 \references{
-~~ Literature or other references for background information ~~
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
-~~ documentation directory ~~
 \keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
 \examples{
-~~ simple examples of the most important functions ~~
+load_lon()     # London outline
+load_la()      # local authority boundaries
+load_thames()  # River Thames
 }

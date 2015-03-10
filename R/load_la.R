@@ -5,5 +5,6 @@
 #' @example examples/load_la.R
 load_la = function(){
   require(maptools)
-  la <<- readShapePoly('data/local_authorities.shp', proj4string=CRS('+init=epsg:27700'))
+  path = system.file("external/local_authorities.shp", package="londonShapefiles")
+  la <<- readShapePoly('external/local_authorities.shp', proj4string=CRS('+init=epsg:27700'))
 }
