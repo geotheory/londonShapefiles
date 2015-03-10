@@ -1,4 +1,4 @@
-#' London's local authority boundaries
+#' London local authority boundaries
 #' @description Load shapefile of London's local authority boundaries (GLA boroughs) as a SpatialPolygonsDataFrame
 #' @return Object 'lon', a 33 row SpatialPolygonsDataFrame
 #' @export

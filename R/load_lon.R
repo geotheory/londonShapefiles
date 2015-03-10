@@ -1,4 +1,4 @@
-#' London's outline
+#' London outline
 #' @description Load shapefile of London's outline (Greater London Authority) as a SpatialPolygonsDataFrame
 #' @return Object 'lon', a single row SpatialPolygonsDataFrame
 #' @export

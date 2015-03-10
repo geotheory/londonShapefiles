@@ -6,5 +6,5 @@
 load_thames = function(){
   require(maptools)
   path = system.file("external/river_thames.shp", package="londonShapefiles")
-  la <<- readShapePoly(path, proj4string=CRS('+init=epsg:27700'))
+  thames <<- readShapePoly(path, proj4string=CRS('+init=epsg:27700'))
 }
