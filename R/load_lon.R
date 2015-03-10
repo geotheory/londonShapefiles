@@ -6,5 +6,5 @@
 load_lon = function(){
   require(maptools)
   path = system.file("external/london_outline_simple.shp", package="londonShapefiles")
-  lon <<- readShapePoly('data/london_outline_simple.shp', proj4string=CRS('+init=epsg:27700'))
+  lon <<- readShapePoly(path, proj4string=CRS('+init=epsg:27700'))
 }
